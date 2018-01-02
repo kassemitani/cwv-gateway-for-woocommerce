@@ -1,25 +1,25 @@
-=== Waves Gateway for Woocommerce ===
-Contributors: uwtoken,tubbynl
-Donate link: Waves: 3P4gvv7rZC1kFDobs4oQHN3H6NQckWiu9wz (tubbynl),3PFn9SGPJ8yVjcmBps48Jx6ddz1QXwUiYqP (uwtoken)
+=== CWV Gateway for Woocommerce ===
+Contributors: KassemItani
+Donate link: Waves: 3PFKxhkyuDVdF1cx3utgPRKG5eXdqGovHqG
 Tags: billing, invoicing, woocommerce, payment
 Requires at least: 3.0.1
 Tested up to: 4.8
-Stable tag: 0.4.0
+Stable tag: 0.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Show prices in WAVES or any other token on waves and accept payments with that token your woocommerce webshop
+Show prices in Cryptowave or any other token on waves and accept payments with that token your woocommerce webshop
 
 == Description ==
 
-Display prices in WAVES or token and let your clients pay through the Waves client software. Built on top of Ripple Gateway developed by Casper Mekel and uses Base58 library developed by Stephen Hill for encoding and decoding. 
+Display prices in WAVES or token and let your clients pay through the Waves client software. Built on top of Ripple Gateway developed by Casper Mekel and uses Base58 library developed by Stephen Hill for encoding and decoding.
 
 * Display prices in WAVES or token in store and on checkout
 * Prices are calculated based on Waves DEX rate
 * Links can be copied by clicking and a QR code is supplied which can be used in the Waves wallet app op iOS and Android
 * Countdown refreshes form each 10 minutes, updating amounts using the most recent conversion reate
 * Matches payments on (encoded) attachment and amount
-* Checkout page is automatically refreshed after a successful payment 
+* Checkout page is automatically refreshed after a successful payment
 * Dutch and Russian translations included. More translations are welcome.
 
 == Installation ==
@@ -39,6 +39,8 @@ Install the plugin by uploading the zipfile in your WP admin interface or via FT
 
 == Changelog ==
 
+- 0.6.0
+* Added Cryptowave
 - 0.4.0
 * Added Waves, WNET and ARTcoin as currency (conversion is skipped)
 * Getting exchange rates based on assetId instead of assetCode
@@ -64,6 +66,3 @@ Install the plugin by uploading the zipfile in your WP admin interface or via FT
 == Upgrade Notice ==
 
 No upgrade notices apply.
-
-
-
